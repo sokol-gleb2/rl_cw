@@ -8,7 +8,7 @@ from tqdm import tqdm
 CONFIG = {
     "eval_freq": 5000, # keep this unchanged
     "epsilon": 0.9,
-    "gamma": 0.99,
+    "gamma": 0.8,
 }
 CONFIG.update(CONSTANTS)
 
